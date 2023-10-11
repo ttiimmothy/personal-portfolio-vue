@@ -16,7 +16,8 @@ counter.increment()
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
       <div>Current Count: {{ counter.count }}, DoubleCount is {{ counter.doubleCount }}</div>
-
+      <q-btn label="Do something" />
+      <q-icon name="alarm" />
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>

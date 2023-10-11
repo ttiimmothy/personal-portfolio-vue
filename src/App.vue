@@ -16,8 +16,10 @@ counter.increment()
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
       <div>Current Count: {{ counter.count }}, DoubleCount is {{ counter.doubleCount }}</div>
-      <q-btn label="Do something" />
-      <q-icon name="alarm" />
+      <div class="block"></div>
+      <el-row class="mb-4">
+        <el-button type="primary">Primary</el-button>
+      </el-row>
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
@@ -33,7 +35,10 @@ header {
   line-height: 1.5;
   max-height: 100vh;
 }
-
+.block {
+  display: block;
+  width: 100%;
+}
 .logo {
   display: block;
   margin: 0 auto 2rem;

@@ -16,10 +16,6 @@ counter.increment()
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
       <div>Current Count: {{ counter.count }}, DoubleCount is {{ counter.doubleCount }}</div>
-      <div class="block"></div>
-      <el-row class="mb-4">
-        <el-button type="primary">Primary</el-button>
-      </el-row>
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>

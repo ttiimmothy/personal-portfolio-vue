@@ -1,6 +1,6 @@
-# portfolio_website_vue_vitepress
+# Personal Portfolio Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+The personal portfolio vue template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
 
@@ -69,3 +69,7 @@ npm run test:e2e -- --debug
 ```sh
 npm run lint
 ```
+
+## License
+
+Personal Portfolio Vue is licensed under [GNU General Public License v3.0](LICENSE).
